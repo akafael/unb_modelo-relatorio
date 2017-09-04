@@ -31,7 +31,7 @@ Para gerar o relatório em Linux basta executar, que será executado o pdflatex 
 $ make
 ```
 
-Caso precise compilar um arquivo .tex, por exemplo "relatorio1.tex" com nome diferente pode usar
+Caso precise compilar um arquivo .tex ( por exemplo "relatorio1.tex") com nome diferente pode usar:
 ```
 $ make NAME=relatorio1.tex
 ```
