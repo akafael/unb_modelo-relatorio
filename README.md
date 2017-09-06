@@ -16,16 +16,19 @@ Modelo de Relatório em LaTeX. Capa e layout colocados em arquivos separados par
 
 ## Guia de uso
 
-Estes arquivos podem ser importados para qualquer editor, incluindo o online como o sharelatex. Apenas garanta que todos os pacotes usado dentro de "relat_layout.tex" estejam previamente instalados. Pode também usar o makefile em conjunto com um editor de texto como sublime ou atom.
+Estes arquivos podem ser importados para qualquer editor, incluindo o online como o sharelatex. Apenas garanta que todos os pacotes usado dentro de "relat_layout.tex" estejam previamente instalados. Pode também usar o makefile em conjunto com um editor de texto preferido.
 
 ### Instalação no Ubuntu (Tex Live)
+
+Caso não tenha o LaTeX instalado no computador pode instalar via apt-get através do comando:
+
 ```
 sudo apt install texlive-full
 ```
 
 ### Usando o makefile
 
-Para gerar o relatório em Linux basta executar, que será executado o pdflatex e depois aberto o pdf gerado. Em particular no sublime pode apenas precionar `Ctrl+B` estando dentro da mesma pasta.
+Para gerar o relatório em Linux basta executar o comando abaixo, que será chamado o programa *pdflatex* e depois aberto o pdf gerado. Em particular, no sublime pode apenas precionar `Ctrl+B` estando dentro da mesma pasta.
 
 ```
 $ make
